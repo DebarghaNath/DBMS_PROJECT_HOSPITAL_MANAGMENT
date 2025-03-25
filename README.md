@@ -1,3 +1,1 @@
 # DBMS_PROJECT_HOSPITAL_MANAGMENT
-
-#problem Statement
