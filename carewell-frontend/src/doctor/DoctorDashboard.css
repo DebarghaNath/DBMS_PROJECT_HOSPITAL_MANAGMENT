@@ -1,0 +1,53 @@
+.sidebar {
+    transition: all 0.3s;
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+}
+.sidebar-collapsed {
+    width: 70px;
+}
+.sidebar-expanded {
+    width: 280px;
+}
+.main-content {
+    transition: all 0.3s;
+}
+.content-collapsed {
+    margin-left: 70px;
+}
+/* .content-expanded {
+    margin-left: 280px;
+} */
+.patient-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.prescription-item:hover {
+    background-color: #f0f9ff;
+}
+.notification-badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.chart-container {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+.bg-medical-pattern {
+    background-image: url('https://img.freepik.com/free-vector/medical-healthcare-blue-color_1017-26807.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.appointment-card {
+    transition: all 0.3s;
+    background: white;
+    border-left: 4px solid;
+}
+.appointment-card:hover {
+    transform: translateX(5px);
+}
+.blur-effect {
+    /* backdrop-filter: blur(10px); */
+    background-color: rgba(255,255,255,0.8);
+}

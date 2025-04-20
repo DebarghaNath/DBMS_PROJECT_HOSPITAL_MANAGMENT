@@ -1,0 +1,57 @@
+.profile-pic-upload {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+.profile-pic-upload img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #3b82f6;
+}
+.profile-pic-upload .edit-icon {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background: #3b82f6;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.input-field {
+    transition: all 0.3s ease;
+}
+.input-field:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 1px #3b82f6;
+}
+.role-badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.role-doctor {
+    background-color: #e0f2fe;
+    color: #0369a1;
+}
+.role-admin {
+    background-color: #ede9fe;
+    color: #7c3aed;
+}
+.role-frontdesk {
+    background-color: #dcfce7;
+    color: #166534;
+}
+.role-dataentry {
+    background-color: #fef3c7;
+    color: #92400e;
+}

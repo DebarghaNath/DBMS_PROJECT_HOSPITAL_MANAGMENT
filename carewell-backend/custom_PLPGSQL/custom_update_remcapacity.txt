@@ -1,0 +1,10 @@
+create or replace function update_remcapacity(
+  wno text
+)
+returns void as $$
+begin
+  update ward 
+  set remcapacity = remcapacity + 1
+  where wardno = wno;
+end;
+$$ language plpgsql;

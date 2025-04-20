@@ -1,0 +1,17 @@
+create or replace function insert_doctor_with_department(
+    name text,
+    email text,
+    mobile text,
+    department_name text
+)
+returns void as $$  
+declare
+  dept_id int;      
+begin
+  select departmentid into dept_id 
+  from departments 
+  where departmentname = department_name;
+  insert into doctors (doctorname, email, doctorcontact, departmentid)
+  values (name, email, mobile, dept_id);
+end;
+$$ language plpgsql; 
