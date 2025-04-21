@@ -6,9 +6,11 @@ CareWell is a comprehensive Hospital Management System designed for day-to-day o
 
 Explore the live version: [CareWell Live](https://carewell-future.netlify.app/)
 
-Postman API Docs: [API Documentationt](https://documenter.getpostman.com/view/40480117/2sB2iwEETs)
+PDF Report: [PDF Report](https://github.com/DebarghaNath/DBMS_PROJECT_HOSPITAL_MANAGMENT/blob/main/DBMS%20Report.pdf)
 
-Submission Repo: https://github.com/DebarghaNath/DBMS_PROJECT_HOSPITAL_MANAGMENT
+Postman API Docs: [API Documentation](https://documenter.getpostman.com/view/40480117/2sB2iwEETs)
+
+Submission Repo: [Submission Repo](https://github.com/DebarghaNath/DBMS_PROJECT_HOSPITAL_MANAGMENT)
 
 ER Diagram: [ER Diagram](https://github.com/DebarghaNath/DBMS_PROJECT_HOSPITAL_MANAGMENT/blob/main/Idea_er_diagram.pdf)
 
