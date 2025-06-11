@@ -1,4 +1,4 @@
-# CareWell Backend
+# CareWell
 
 CareWell is a comprehensive Hospital Management System designed for day-to-day operations of a hospital. It enables coordination between different users – Front Desk Operators, Data Entry Operators, Doctors, and Database Administrators – ensuring efficient handling of patient information, appointments, treatments, diagnostics, and administration.
 
